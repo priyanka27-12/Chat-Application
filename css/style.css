@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@700&family=Kanit:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@700&family=Edu+SA+Beginner:wght@500&family=Kanit:ital@1&family=Ubuntu&display=swap');
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background-image: linear-gradient(#cecee3, #5885eb);
+    height: 100vh;
+
+}
+
+h1 {
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Edu QLD Beginner', cursive;
+    text-align: center;
+    color: #2970ab;
+    font-size: 45px;
+    margin-bottom: 14px;
+
+}
+
+.container {
+    max-width: 955px;
+    /* background-color: blueviolet; */
+    background: url(bg1.webp) no-repeat center center fixed;
+    padding: 33px;
+    overflow-y: auto;
+    margin: auto;
+    height: 60vh;
+}
+
+.message {
+    background-color: #4367e9e3;
+    font-family:'Ubuntu', sans-serif;
+    width: 48%;
+    padding: 10px;
+    margin: 14px -23px;
+    border-radius: 10px;
+}
+
+.message:hover{
+    background-color: #5885eb;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    
+    text-align: center;
+    max-width: 1047px;
+    width: 100%;
+    height: auto;
+}
+
+#msginp {
+    width: 87%;
+    border: 4px solid #0a63ab;
+    font-family:'Ubuntu', sans-serif;
+    border-radius: 8px;
+    height: 31px;
+    background-color: rgb(56 130 208 / 60%);
+    font-size: 22px;
+}
+#msginp:hover {
+    background-color: rgba(111, 147, 182, 0.6);
+}
+
+.btn {
+    width: 9%;
+    cursor: pointer;
+    border: 4px solid #0a63ab;
+    border-radius: 8px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight:bold;
+    height: 41px;
+    background-color: rgb(56 130 208 / 60%);
+    padding: 11px 2px;
+}
+
+.btn:hover {
+    color: #e4e8ec;
+    background-color: #0a63ab;
+}
